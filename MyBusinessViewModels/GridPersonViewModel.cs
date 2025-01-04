@@ -4,6 +4,13 @@ namespace MyBusinessViewModels;
 
 public partial class GridPersonViewModel : ObservableObject
 {
+    private string? _firstName;
+
+    public string? FirstName
+    {
+        get => _firstName;
+        set => SetProperty(ref _firstName, value);
+    }
     [ObservableProperty] public partial string? Name { get; set; }
 
 
