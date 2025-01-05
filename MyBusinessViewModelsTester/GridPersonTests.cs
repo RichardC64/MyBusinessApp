@@ -36,5 +36,11 @@ public class GridPersonTests
         Assert.Equal("John", personVm.Person.FirstName);
         Assert.Equal("Doe", personVm.Person.LastName);
         Assert.Equal(30, personVm.Person.Age);
+
+        personVm.Age = -1;
+        Assert.Equal(0, personVm.Age);
+
+        personVm.Age = 200;
+        Assert.Equal(150, personVm.Age);
     }
 }
