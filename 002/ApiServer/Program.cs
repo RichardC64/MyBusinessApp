@@ -2,7 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(b =>
+    options.AddPolicy("MyPolicy", b =>
     {
         b.WithOrigins("http://localhost:4200")
             .AllowAnyMethod()
@@ -15,7 +15,7 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-app.UseCors();
+app.UseCors("MyPolicy");
 
 // Configure the HTTP request pipeline.
 
