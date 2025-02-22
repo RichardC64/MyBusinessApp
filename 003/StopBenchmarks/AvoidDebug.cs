@@ -1,4 +1,6 @@
-﻿internal class AvoidDebug
+﻿namespace StopBenchmarks;
+
+public class AvoidDebug
 {
     private List<decimal> _priceCollection = new List<decimal> { 19.99m, 34.55m };
 
