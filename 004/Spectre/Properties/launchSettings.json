@@ -1,8 +1,7 @@
 {
   "profiles": {
     "Spectre": {
-      "commandName": "Project",
-      "commandLineArgs": "TR1"
+      "commandName": "Project"
     }
   }
 }
