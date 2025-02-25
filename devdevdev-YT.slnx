@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/001/">
+    <Project Path="001/MyBusinessViewModels/MyBusinessViewModels.csproj" />
+    <Project Path="001/MyBusinessViewModelsTester/MyBusinessViewModelsTester.csproj" />
+  </Folder>
+  <Folder Name="/002/">
+    <Project Path="002/ApiServer/ApiServer.csproj" />
+  </Folder>
+  <Folder Name="/003/">
+    <Project Path="003/StopBenchmarks/StopBenchmarks.csproj" />
+  </Folder>
+  <Folder Name="/004/">
+    <Project Path="004/Spectre/Spectre.csproj" />
+  </Folder>
+  <Folder Name="/005/">
+    <Project Path="PlaywrithTestApp/PlaywrithTestApp.csproj" />
+  </Folder>
+  <Folder Name="/Éléments de solution/">
+    <File Path="Todo.md" />
+  </Folder>
+</Solution>
