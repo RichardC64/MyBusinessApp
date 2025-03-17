@@ -2,16 +2,31 @@
 using Spectre.Console;
 using Spectre.Console.Cli;
 
-/*
-Spectre NomCompetition
-Specre NomCompetition
- -
+
+return;
 
 
 
 
- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var app = new CommandApp<MyAppCommand>();
-
 app.Run(args);
